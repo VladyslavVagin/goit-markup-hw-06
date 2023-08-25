@@ -53,8 +53,7 @@ img {
   padding: 0 15px;
 }
 
-/* =======================  HEADER- ========================================== */
-
+/* ============================= COMMON FEATURES ====================================== */
 /*============= NAVIGATION MENU ============== */
 .nav-link {
   color: #2e2f42;
@@ -63,7 +62,6 @@ img {
   padding: 24px 0;
   display: block;
 }
-
 .current {
   position: relative;
   color: #404bbf;
@@ -72,7 +70,6 @@ img {
 .nav-link:focus {
   color: #404bbf;
 }
-
 .current::after {
   content: "";
   position: absolute;
@@ -85,8 +82,7 @@ img {
   transition: width 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* ============ HERO SECTION ================================== */
-
+/* ============ HERO SECTION BUTTON AND FORM================================== */
 .form-btn:hover,
 .form-btn:focus,
 .order-request-button:hover,
@@ -97,7 +93,6 @@ img {
   margin: 0 auto;
   min-width: 169px;
 }
-
 .form-btn,
 .order-request-button {
   background-color: var(--socialmain-color);
@@ -106,7 +101,7 @@ img {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* ==========ORDER REQUEST FORM======================== */
+/* ==========ORDER REQUEST FORM===================================================== */
 .close-icon-container {
   display: flex;
   justify-content: end;
@@ -119,7 +114,6 @@ img {
 .close-btn:focus .close-icon {
   fill: var(--white-background-color);
 }
-
 .close-btn {
   border-radius: 50%;
   padding: 8px;
@@ -220,7 +214,7 @@ label {
   transform: translateX(-50%) translateY(-50%) scale(0) rotate(0deg)
     skew(40deg 40deg);
 }
-
+/*====================== CHECKBOX ============================ */
 .checkbox-real {
   width: 0;
   height: 0;
@@ -228,11 +222,9 @@ label {
   z-index: -1;
   position: absolute;
 }
-
 .checkbox-icon {
   fill: var(--white-background-color);
 }
-
 .checkbox-custom {
   width: 16px;
   height: 16px;
@@ -276,13 +268,12 @@ label {
 .input-wrap:focus-within .svg-form {
   fill: rgba(77, 90, 229, 1);
 }
-
 .form-btn {
   min-width: 169px;
   margin: 24px auto;
   padding: 16px 32px;
 }
-/* visually hidden pattern  */
+/* =============visually hidden pattern  */
 .visualy-hidden {
   overflow: hidden;
   position: absolute;
@@ -295,14 +286,14 @@ label {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
 }
-/*  ======================= */
+/* =============== ======================= */
 
 /* ================= OUR TEAM SECTION ====================== */
 .section-team {
-  background: #f4f4fd;
+  background: var(--light-color);
 }
 .ourteam-cont-title {
-  color: #2e2f42;
+  color: var(--titles-color);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -319,7 +310,7 @@ label {
 
 .ourteam-list-card {
   border-radius: 0px 0px 4px 4px;
-  background-color: #fff;
+  background-color: var(--white-background-color);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -336,7 +327,7 @@ label {
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
-/* ============ SOCIAL LINKS===============  */
+/* ========================== SOCIAL LINKS===============  */
 .social-links-list {
   list-style-type: none;
   display: flex;
@@ -346,7 +337,7 @@ label {
 .social-link {
   width: 100%;
   height: 100%;
-  background-color: #4d5ae5;
+  background-color: var(--socialmain-color);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -379,7 +370,6 @@ label {
   margin-bottom: 72px;
   text-align: center;
 }
-
 .portfolio-list-card:hover {
   box-shadow: 0px 2px 1px 0px #2e2f4214, 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -400,7 +390,6 @@ label {
 .portfolio-list-card:focus .overlay {
   transform: translateY(0);
 }
-
 .overlay {
   position: absolute;
   top: 0;
@@ -421,7 +410,6 @@ label {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-
 .portfolio-list-card-descr {
   background-color: var(--white-background-color);
   padding: 32px 16px;
@@ -429,7 +417,6 @@ label {
   border-top: none;
   position: relative;
 }
-
 .portfolio-list-card-title {
   color: var(--titles-color);
   font-size: 20px;
@@ -451,7 +438,6 @@ label {
 .footer-section .container {
   display: flex;
 }
-
 .footer-logo {
   font-family: "Raleway", sans-serif;
   color: var(--socialmain-color);
@@ -482,10 +468,7 @@ label {
   line-height: 1.5;
   margin-bottom: 16px;
 }
-
 .social-links-list-footer {
-  list-style-type: none;
-  display: flex;
   gap: 16px;
 }
 .social-links-list-item {
@@ -514,12 +497,10 @@ label {
   display: flex;
   flex-direction: column;
 }
-
 .input-btn-block {
   display: flex;
   justify-content: center;
 }
-
 .input-subscribe {
   width: 264px;
   height: 40px;
@@ -533,18 +514,15 @@ label {
   padding: 8px 16px;
   transition-property: border;
 }
-
 .input-subscribe:focus-within {
   border: 1px solid var(--linkhover-color);
 }
-
 .input-subscribe::placeholder {
   font-size: 12px;
   line-height: 2;
   color: var(--white-background-color);
   letter-spacing: 0.04em;
 }
-
 .subscribe-button {
   height: 40px;
   background-color: var(--socialmain-color);
@@ -559,11 +537,11 @@ label {
 .subscribe-button:focus {
   background-color: var(--linkhover-color);
 }
-
 .telegram-icon {
   margin-left: 16px;
 }
-/* ==========  / FOOTER  ================================================================== */
+/* ==========  / FOOTER  ==============================================*/
+
 /*============= MEDIA REQUESTS FOR DIFFERNT SCREENS ============= */
 
 /* ========== FOR MOBILE VERSION 320-768 ===================== */
@@ -669,7 +647,7 @@ label {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/office-mobile.jpg);
+      url(../images/hero.jpg);
     background-repeat: no-repeat;
     background-position: 50%, 50%;
     background-size: cover;
@@ -856,11 +834,6 @@ label {
   .first-section {
     max-width: 1440px;
     padding: 112px 0;
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/hero-section.jpg);
   }
   .order-request-title {
     width: 496px;
@@ -997,3 +970,15 @@ label {
     margin-right: 80px;
   }
 }
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .first-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-x2.jpg);
+  }
+}
+/* ========================================================================== */
