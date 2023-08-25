@@ -1,2 +1,1 @@
-# goit-markup-hw-006
- Sixth Homework
+# goit-markup-hw-06
