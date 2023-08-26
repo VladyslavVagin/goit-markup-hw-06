@@ -81,6 +81,16 @@ img {
   border-radius: 2px;
   transition: width 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.address-link:hover,
+.address-link:focus {
+  color: var(--linkhover-color);
+}
+.address-link {
+  color: var(--text-color);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 /* ============ HERO SECTION BUTTON AND FORM================================== */
 .form-btn:hover,
@@ -797,17 +807,6 @@ label {
     display: flex;
     flex-direction: column;
     row-gap: 12px;
-  }
-
-  .address-link:hover,
-  .address-link:focus {
-    color: var(--linkhover-color);
-  }
-  .address-link {
-    color: var(--text-color);
-    text-decoration: none;
-    letter-spacing: 0.02em;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .burger-button {
