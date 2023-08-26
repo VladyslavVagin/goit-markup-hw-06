@@ -694,7 +694,9 @@ label {
     letter-spacing: 0.02em;
   }
   .form {
-    max-width: 288px;
+    min-width: 288px;
+    width: calc(100% - 16px);
+    max-width: 408px;
     position: absolute;
     align-items: center;
     margin: 8px;
@@ -834,9 +836,6 @@ label {
     width: 496px;
     font-size: 56px;
     padding: 0;
-  }
-  .form {
-    max-width: 408px;
   }
   /* ========BENEFITS SECTION  */
   .section-descr .container {
