@@ -588,10 +588,6 @@ label {
   .burger-close-btn {
     margin-left: auto;
   }
-
-  .is-open {
-    z-index: 999;
-  }
   .burger-menu {
     position: absolute;
     width: 100%;
