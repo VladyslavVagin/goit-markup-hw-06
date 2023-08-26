@@ -194,6 +194,7 @@ label {
   bottom: 0;
   z-index: 1;
   cursor: not-allowed;
+  overflow-y: scroll;
   transform: scale(1);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -205,7 +206,6 @@ label {
   padding: 16px;
   position: absolute;
   margin: 8px;
-  top: 0;
 }
 .is-hidden {
   visibility: hidden;
