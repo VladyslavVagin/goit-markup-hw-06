@@ -647,6 +647,7 @@ label {
   /* HERO SECTION ============== */
   .first-section {
     width: 100%;
+    margin: 0 auto;
     padding: 72px 0;
     background-color: var(--titles-color);
     background-image: linear-gradient(
