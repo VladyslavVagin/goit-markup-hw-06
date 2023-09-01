@@ -412,7 +412,7 @@ label {
   letter-spacing: 0.02em;
   color: var(--light-color);
   padding: 40px 32px;
-  background-color: var(--socialmain-color);
+  background-color: rgba(39, 55, 231, 0.671);
   height: 100%;
   width: 100%;
   transform: translateY(100%);
