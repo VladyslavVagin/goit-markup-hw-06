@@ -744,7 +744,7 @@ label {
     letter-spacing: 0.02em;
   }
   .form-container {
-    transform: translate(-50%, -20%) scale(0.7);
+    transform: translate(-50%, -20%) scale(0.9);
   }
   /* OUR TEAM SECTION ============= */
   .ourteam-list {
