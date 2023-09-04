@@ -152,9 +152,9 @@ label {
 }
 .form-container {
   position: absolute;
-  top: 50%;
+  top: 12%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -12%) scale(1);
   width: 408px;
   min-height: 584px;
   background: #fcfcfc;
@@ -719,11 +719,6 @@ label {
     text-align: center;
     padding: 0 40px;
     margin: 0 auto 48px auto;
-  }
-
-  .form-container {
-    top: 70%;
-    transform: translate(-50%, -50%) scale(0.75);
   }
   /* DESCRIPTION SECTION ============ */
   .descrip-list {
