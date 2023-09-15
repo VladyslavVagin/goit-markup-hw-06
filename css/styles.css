@@ -486,6 +486,10 @@ label {
   letter-spacing: 0.02em;
 }
 
+/* ===================   SWIPER ======================================= */
+.swiper {
+  max-width: 360px;
+}
 /*  =====================FOOTER ============================ */
 .footer-section {
   background: var(--titles-color);
@@ -798,6 +802,7 @@ label {
 /* ============================================================================= */
 /*========= NAVIGATION MENU  for MOBILE MAX 768PX ===== */
 @media screen and (max-width: 767.98px) {
+  .portfolio .portfolio-list,
   .address-cont,
   .header-cont-nav-menu {
     overflow: hidden;
@@ -832,6 +837,10 @@ label {
 /* FOR TABLET SCREEN 768-1158PX ==================================================== */
 @media screen and (min-width: 768px) {
   /* ==================================HEADER  */
+  .swiper {
+    display: none;
+  }
+
   header {
     border-bottom: 1px solid var(--cornflower, #e7e9fc);
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
