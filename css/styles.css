@@ -585,7 +585,7 @@ label {
   height: 40px;
   background-color: var(--socialmain-color);
   padding: 8px 24px;
-  margin-left: 24px;
+  margin: 0 auto;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -654,8 +654,9 @@ label {
     top: 0;
     left: 0;
     z-index: 999;
-    padding: 48px 24px 40px 16px;
+    padding: 40px 20px;
   }
+
   .burger-menu-list {
     font-size: 36px;
     font-weight: 700;
@@ -665,7 +666,7 @@ label {
     flex-direction: column;
     row-gap: 40px;
     padding: 0;
-    margin-bottom: 120px;
+    margin-bottom: 30vh;
   }
   .burger-menu-list .nav-link {
     padding: 0;
@@ -788,7 +789,7 @@ label {
 }
 /* ============================================================================= */
 /*========= NAVIGATION MENU  for MOBILE MAX 768PX ===== */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
   .address-cont,
   .header-cont-nav-menu {
     overflow: hidden;
@@ -803,7 +804,7 @@ label {
     clip: rect(0 0 0 0);
   }
 }
-@media screen and (max-width: 1157px) {
+@media screen and (max-width: 1157.98px) {
   .feature-icon {
     overflow: hidden;
     position: absolute;
@@ -943,6 +944,9 @@ label {
     column-gap: 24px;
     justify-content: flex-start;
     margin-left: 14%;
+  }
+  .subscribe-button {
+    margin-left: 24px;
   }
 
   .input-btn-block {
