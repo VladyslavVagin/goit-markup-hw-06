@@ -6,6 +6,7 @@
   --linkfooter-color: #31d0aa;
   --white-background-color: #fff;
   --light-color: #f4f4fd;
+  scroll-behavior: smooth;
 }
 
 body {
