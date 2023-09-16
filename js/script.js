@@ -8,11 +8,4 @@ const swiper = new Swiper('.swiper', {
         clickable: true,
     },
     loop: true,
-
-    effect: 'flip',
-
-    flipEffect: {
-        slideShadows: true,
-        limitRotation: true
-    },
 });
