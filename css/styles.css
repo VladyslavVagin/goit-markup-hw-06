@@ -490,6 +490,9 @@ label {
 .swiper {
   max-width: 360px;
 }
+.swiper-pagination {
+  z-index: 999;
+}
 /*  =====================FOOTER ============================ */
 .footer-section {
   background: var(--titles-color);
