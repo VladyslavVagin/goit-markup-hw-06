@@ -659,14 +659,12 @@ label {
     left: 0;
     z-index: 999;
     padding: 40px 20px;
-    background-image: linear-gradient(
-        rgba(153, 153, 153, 0.63),
-        rgba(153, 153, 153, 0.63)
-      ),
-      url(../images/hero.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
+    background: rgb(185, 231, 229);
+    background: linear-gradient(
+      180deg,
+      rgba(185, 231, 229, 1) 64%,
+      rgba(232, 232, 232, 1) 100%
+    );
   }
 
   .burger-menu-list {
