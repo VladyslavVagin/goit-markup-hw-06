@@ -489,9 +489,12 @@ label {
 /* ===================   SWIPER ======================================= */
 .swiper {
   max-width: 360px;
+  position: relative;
 }
 .swiper-pagination {
-  z-index: 999;
+  position: absolute;
+  bottom: -10%;
+  opacity: 0.7;
 }
 /*  =====================FOOTER ============================ */
 .footer-section {
@@ -662,12 +665,6 @@ label {
     left: 0;
     z-index: 999;
     padding: 40px 20px;
-    background: rgb(185, 231, 229);
-    background: linear-gradient(
-      180deg,
-      rgba(185, 231, 229, 1) 64%,
-      rgba(232, 232, 232, 1) 100%
-    );
   }
 
   .burger-menu-list {
