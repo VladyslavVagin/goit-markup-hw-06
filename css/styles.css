@@ -660,8 +660,8 @@ label {
     z-index: 999;
     padding: 40px 20px;
     background-image: linear-gradient(
-        rgba(242, 242, 245, 0.651),
-        rgba(242, 242, 245, 0.651)
+        rgba(153, 153, 153, 0.63),
+        rgba(153, 153, 153, 0.63)
       ),
       url(../images/hero.jpg);
     background-repeat: no-repeat;

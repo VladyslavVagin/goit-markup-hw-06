@@ -7,4 +7,12 @@ const swiper = new Swiper('.swiper', {
         el: '.swiper-pagination',
         clickable: true,
     },
+    loop: true,
+
+    effect: 'flip',
+
+    flipEffect: {
+        slideShadows: true,
+        limitRotation: true
+    },
 });
